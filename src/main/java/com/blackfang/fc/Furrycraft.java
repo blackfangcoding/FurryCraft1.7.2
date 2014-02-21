@@ -1,6 +1,6 @@
-package furcraft;
+package com.blackfang.fc;
 
-import furcraft.lib.Reference;
+import com.blackfang.fc.lib.Reference;
 import cpw.mods.fml.common.mod;
 import cpw.mods.fml.common.mod.Init;
 import cpw.mods.fml.common.mod.PostInit;
@@ -9,10 +9,17 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
+/**
+ * FurryCraft
+ * <p/>
+ * Furrycraft
+ *
+ * @author Lone Blackfang
+ */
 @Mod(modid = Reference.MOD_ID,name = Reference.MOD_NAME, version = Reference.VERSION)
 
 
-public class FurCraft{
+public class Furrycraft{
     @PreInit
     public void preInit(FMLPreInitializationEvent event) { }
     
